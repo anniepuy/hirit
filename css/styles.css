@@ -2,6 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    color: #E2C275
+}
 .navbar {
     background-color:#219ebc ;
 }

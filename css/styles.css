@@ -2,11 +2,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-a {
+#footer a {
     color: yellow;
 }
 .navbar {
     background-color:#219ebc ;
+}
+
+.header-font {
+    padding-left: 1rem;
+    color:#F4F4F4
 }
 .jumbotron-fluid img {
     max-width: 150%;
@@ -17,12 +22,6 @@ a {
    /* width: 260px; */
    width: 100%;
    height: 290px;
-}
-
-.marketing {
-    height: 23rem;
-    background-color: #F4F4F4;
-    margin-top: 2rem;
 }
 
 .scaled {

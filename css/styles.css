@@ -3,19 +3,19 @@ body {
 }
 
 h1, h2, h3, h4, p {
-    color: #20185e;
+    color: #435058;
 }
 
 #footer a {
     color: yellow;
 }
 .navbar {
-    background-color:#f7d2b7;
+    background-color:#BFB7B6;
 }
 
 .header-font {
     padding-left: 1rem;
-    color:#20185e;
+    color:#435058;
 }
 .jumbotron-fluid img {
     max-width: 150%;
@@ -39,5 +39,9 @@ h1, h2, h3, h4, p {
 
 footer {
     background-color: #f7d2b7;
-    color:#20185e;
-};
+    color: #435058;
+}
+
+.searchArea {
+    background-color: #F1F2EE;
+}

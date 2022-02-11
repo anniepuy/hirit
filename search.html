@@ -15,15 +15,15 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light-rounded">
+            <div class="container-xl">
                 <a class="navbar-brand ms-3" href="#">
-                    <img src="img/hirit.svg" alt="hirit logo" width="100" class="d-inline-block align-center">
-                    <span class="header-font">Hire a licensed contractor</span>
+                <img src="img/hiritLogo.png" alt="hirit logo" width="100" class="d-inline-block align-center">
+                <span class="header-font">Hire a licensed contractor</span>
                 </a>
-                <form class="d-flex justify-content-end">
-                    <button class="btn btn-light btn-lg me-2" type="button">Sign In</button>
-                  </form>
+                <div class="navbar-nav">
+                    <a class="btn btn-primary btn-lg me-2" href="login.html" role="button">Sign In</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -35,23 +35,57 @@
             <li class="breadcrumb-item active" aria-current="page">Search</li>
             </ol>
         </nav>
+    </div>
     
-        <div class="row">
-            <div class="col">
-                <h2>Search by job types</h2>
-                <h2>Zip Code</h2>
+    <div class="container mt-3">
+        <div class="row p-5 text-black rounded searchArea">
+            <h1 class="text-center">Search licensed and reliable contractors</h1>
+            <form>
+                <div class="col mb-3">
+                    <div class="input-group input-group-lg">
+                        <label for="search" class="form-label"></label>
+                        <input type="text" class="form-control" id="search" aria-describedby="search" placeholder="What type of job needs to get done?">
+                    </div>
+                </div>
+              </form>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row p-5 mx-auto">
+            <div class="col-xl-4 jiepuustify-content-xl-center">
+                <img class="rounded-circle" src="img/electricianLogo.png" width="140" height="140">
+                <h2>Electricians</h2>
+            </div>
+            <div class="col-xl-4 mx-auto">
+                <img class="rounded-circle" src="img/plumblingLogo.png" width="140" height="140">
+                <h2>Plumbers</h2>
+            </div>
+            <div class="col-xl-4 mx-auto">
+                <img class="rounded-circle" src="img/landscapeLogo.png" width="140" height="140">
+                <h2>Landscaping</h2>
+            </div>
+        </div>
+        <div class="row p-5 mx-auto">
+            <div class="col-xl-4 mx-auto">
+                <img class="rounded-circle" src="img/constructionLogo2.png" width="140" height="140">
+                <h2>General Contractor</h2>
+            </div>
+            <div class="col-xl-4 mx-auto">
+                <img class="rounded-circle" src="img/hvacLogo.png" width="140" height="140">
+                <h2>HVAC</h2>
+            </div>
+            <div class="col-xl-4 mx-auto">
+                <img class="rounded-circle" src="img/paintingLogo.png" width="140" height="140">
+                <h2>Painters</h2>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col">
-                <h2>Results</h2>
-            </div>
-        </div> 
+    </div>
 
         <!--this is a template for the results card-->
         <div class="row">
-            <div class="col">
+            <div class="col-lg-4">
                 <p>Breanna's Landscaping</p>
                 <p>www.blandscaping.com</p>
                 <p>Tel: (123) 456-7891</p>

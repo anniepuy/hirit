@@ -6,9 +6,6 @@ h1, h2, h3, h4, p {
     color: #435058;
 }
 
-#footer a {
-    color: yellow;
-}
 .navbar {
     background-color:#BFB7B6;
 }
@@ -38,8 +35,7 @@ h1, h2, h3, h4, p {
 }
 
 footer {
-    background-color: #f7d2b7;
-    color: #435058;
+    background-color: #BFB7B6;
 }
 
 .searchArea {

@@ -45,3 +45,8 @@ footer {
 .jobtypes h2{
     text-align: center;
 }
+
+.searchLinks {
+    color: #435058;
+    text-decoration: none;
+}
